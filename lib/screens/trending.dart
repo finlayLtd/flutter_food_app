@@ -13,10 +13,7 @@ class Trending extends StatelessWidget {
         centerTitle: true,
       ),
       body: Padding(
-        padding: EdgeInsets.symmetric(
-          vertical: 0,
-          horizontal: 10.0,
-        ),
+        padding: EdgeInsets.fromLTRB(10.0, 0, 10.0, 0),
         child: ListView(
           children: <Widget>[
             SearchCard(),
